@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Categorías Sinapsis </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<nav>
+  <a href="index.html"><img class="logo-inicio" src="logo-sinapsis.png"></a>
+
+  <ul class="menu">
+    <li class="menu-p"> <a href="#"> <img src="hamburguesa.png"> </a>
+       <ul class="dropdown">
+         <li> <a href="categorias.html"> <h4> Categorías </h4> </a> </li>
+         <li> <a href="#"> <h5> Usuario </h5> </a> </li>
+         <li> <a href="#"> <h5> Comunidad </h5></a> </li>
+         <li> <a href="#"> <h5> Seguridad </h5> </a> </li>
+         <li> <a href="#"> <h5> Conductores </h5> </a> </li>
+         <li> <a href="#"> <h5> Compra </h5> </a> </li>
+         <li> <a href="#"> <h4> Colaborar </h4> </a> </li>
+         <li> <a href="#"> <h4> Propósito </h4> </a> </li>
+       </ul>
+    </li>
+    <li class="menu-p"> <a class="menu-pp" href="#"> Buscar </a> </li>
+    <li class="menu-p"> <a class="menu-pp" href="#"> <img class="lupa" src="lupa-buscar.png"></a></li>
+  </ul>
+</nav>
+
+    <!-- barra menu -->
+
+
+      <img class="lineas" src="conexiones-lineas.png">
+
+    <!-- NOTE: contenido -->
+     <h1> Categorías </h1>
+
+     <p class="intro">Se ha observado que dentro de los distintos sitios web hay
+       prácticas que se replican en su forma y desarollo. De eso se ha
+       levantado un estudio que permite identificar las siguientes secciones.</p>
+
+
+    <div class="wordList">
+
+      <div class="categorias-lista">
+
+      <!-- Usuario -->
+
+
+    <button onclick="Usuario()" class="btn"> <h2> Usuario <img class="arrow" src="flecha-ir.png">
+    </h2> </button>
+
+      <!-- invisible -->
+      <div class="categoriaData" id="user">
+
+       <!-- usuario-izquierda -->
+       <div class="split left">
+         <div class="centered">
+           <h3>Usuario</h3>
+           <a href="#" class="add"><img class="mas" src="add.png"> Añadir nuevo patrón </a>
+           <p class="descripcion"> Esta categoría está compuesta por 7 patrones de interacción,
+           los cuales acuñan conceptos relacionados a la creación de una cuenta.</p>
+           <button onclick="Usuario()" class="boton"> <img class="goback" src="flecha-volver.png"> </button>
+         </div>
+       </div>
+
+       <!-- usuario-derecha -->
+       <div class="split right">
+           <ul>
+             <li><a href="patron.html"> Cuenta Verificada </a></li>
+             <li><a href="#"> Preferencia de mensajería </a></li>
+             <li><a href="#"> Des-inscripción  de lista  de correos </a></li>
+             <li><a href="#"> Eliminar Suscripción </a></li>
+             <li><a href="#"> Eliminar Cuenta </a></li>
+             <li><a href="#"> Cambiar cuenta  de pago  a gratuita </a></li>
+             <li><a href="#"> Procesos de  cuenta </a></li>
+           </ul>
+       </div>
+       </div>
+
+
+
+
+     <!-- Comunidad -->
+
+       <button onclick="Comunidad()" class="btn"> <h2> Comunidad <img class="arrow2" src="flecha-ir.png">
+       </h2> </button>
+
+     <!-- invisible -->
+     <div class="categoriaData" id="comunidad">
+
+       <!-- comunidad-izquierda -->
+       <div class="split left">
+         <div class="centered">
+           <h3>Comunidad</h3>
+           <a href="#" class="add"><img class="mas" src="add.png" > Añadir nuevo patrón </a>
+           <p class="descripcion">Esta categoría esta compuesta por 5 patrones de interacción,
+             los cuales acuñan conceptos relacionados con acciones que se
+             concretan con un otro. </p>
+             <button onclick="Comunidad()" class="boton"> <img class="goback" src="flecha-volver.png"> </button>
+         </div>
+       </div>
+
+       <!-- comunidad-derecha -->
+       <div class="split right">
+         <div class="lista">
+           <ul>
+             <li class="derecha-d"><a class="patron-d" href="#"> Compartir </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Comentar una publicacion </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Eliminar contenido de  RR.SS </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Calificacion de un post </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Evaluacion  de un producto o servicio </a></li>
+           </ul>
+         </div>
+       </div>
+
+     </div>
+
+     <!-- Seguridad -->
+
+
+     <button onclick="Seguridad()" class="btn"> <h2> Seguridad <img class="arrow3" src="flecha-ir.png">
+     </h2> </button>
+
+     <!-- invisible -->
+     <div class="categoriaData" id="seguridad">
+
+       <!-- seguridad-izquierda -->
+       <div class="split left">
+         <div class="centered">
+           <h3> Seguridad </h3>
+           <a href="#" class="add"><img class="mas" src="add.png"> Añadir nuevo patrón </a>
+           <p class="descripcion"> Esta categoría esta compuesta por 7 patrones de interacción,
+             los cuales acuñan conceptos relacionados con resguardos de
+             identificación e información.  </p>
+             <button onclick="Seguridad()" class="boton"> <img class="goback" src="flecha-volver.png"> </button>
+         </div>
+       </div>
+
+       <!-- seguridad-derecha -->
+       <div class="split right">
+         <div class="lista">
+           <ul>
+             <li class="derecha-d"><a class="patron-d" href="#"> Solicitar permiso de usuario </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Captcha </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Aplicaciones codependientes </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Autenticacion de usuario </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Creacion de cuenta </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Recuperar cuenta </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Cambio de contraseña </a></li>
+           </ul>
+         </div>
+       </div>
+
+     </div>
+
+     <!-- Conductores -->
+
+
+     <button onclick="Conductores()" class="btn"> <h2> Conductores <img class="arrow4" src="flecha-ir.png">
+     </h2> </button>
+
+      <!-- invisible -->
+     <div class="categoriaData" id="conductores">
+
+       <!-- conductores-izquierda -->
+       <div class="split left">
+         <div class="centered">
+           <h3> Conductores </h3>
+           <a href="#" class="add"><img class="mas" src="add.png"> Añadir nuevo patrón </a>
+           <p class="descripcion"> Esta categoría esta compuesta por 8 patrones de interacción,
+             los cuales acuñan conceptos relacionados con sistemas de guía
+             de contenido.  </p>
+             <button onclick="Conductores()" class="boton"> <img class="goback" src="flecha-volver.png"> </button>
+         </div>
+       </div>
+
+       <!-- conductores-derecha -->
+       <div class="split right">
+         <div class="lista">
+           <ul>
+             <li class="derecha-d"><a class="patron-d" href="#"> Contenido recomendado </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Acceder a contenido </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Chatbots </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Wizard </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Predicción de búsqueda </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Segmentación de contenido </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Actualización de contenido </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Notificación </a></li>
+           </ul>
+         </div>
+       </div>
+
+     </div>
+
+     <!-- Compra -->
+
+
+     <button onclick="Compra()" class="btn"> <h2> Compra <img class="arrow5" src="flecha-ir.png">
+     </h2> </button>
+
+       <!-- invisible -->
+      <div class="categoriaData" id="compra">
+
+       <!-- compra-izquierda -->
+       <div class="split left">
+         <div class="centered">
+           <h3> Compra </h3>
+           <a href="#" class="add"><img class="mas" src="add.png"> Añadir nuevo patrón </a>
+           <p class="descripcion"> Esta categoría esta compuesta por 4 patrones de
+             interacción, los cuales acuñan conceptos relacionados con la compra de
+             un artículo en un sitio. </p>
+           <button onclick="Compra()" class="boton"> <img class="goback" src="flecha-volver.png"> </button>
+         </div>
+       </div>
+
+      <!-- compra-derecha -->
+       <div class="split right">
+         <div class="lista">
+           <ul>
+             <li class="derecha-d"><a class="patron-d" href="#"> Comparacion de producto </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Trackeo de envios </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Formas de Pago </a></li>
+             <li class="derecha-d"><a class="patron-d" href="#"> Carros de compra </a></li>
+           </ul>
+         </div>
+       </div>
+
+     </div>
+     </div>
+
+     </div>
+
+
+
+     <script>
+
+     function Usuario() {
+     var x = document.getElementById("user");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+     }
+
+
+     function Comunidad() {
+     var x = document.getElementById("comunidad");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+     }
+
+     function Seguridad() {
+     var x = document.getElementById("seguridad");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+     }
+
+     function Conductores() {
+     var x = document.getElementById("conductores");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+     }
+
+     function Compra() {
+     var x = document.getElementById("compra");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+     }
+     </script>
+
+
+
+
+  </body>
+</html>

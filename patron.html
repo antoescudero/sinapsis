@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <title>Cuenta Verificada</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel='stylesheet' href="css/estilos.css">
+   <img class="patron" src="cuentaverificada (1).gif">
+   <img class="toolbar" src="Group 12.png">
+   <a href="index.html"> <img class="logo" src="logo-sinapsis 1.png"> </a>
+
+  </head>
+
+  <body>
+
+   <a class="volver" href="categorias.html"><img class="atras" src="back.png"><h3>Usuario</h3></a>
+   <h1>Cuenta Verificada</h1>
+
+   <img class="share" src="share.png"><h5>Comparte este patrón</h5>
+
+   <p>Este patrón corresponde a la acción de validación de la identidad del usua
+rio. Generalmente se lleva a cabo a través de distintos documentos y códigos que
+permiten a la plataforma reconocer al usuario.
+</p>
+
+ <div id="Practicas-lista">
+
+       <button onclick="Buenaspracticas()" class="btn"> <h2> Buenas practicas <img class="mas" src="add.png">
+       </h2> </button>
+
+       <div id="Buenas practicas">
+
+         <div class="split left">
+           <div class="centered">
+             <h2> Buenas prácticas </h2>
+             <a href="#"><h4> + Añadir nuevo ejemplo</h4></a>
+             <p> Se consideran buenas prácticas aquellas que están explícita en
+la interfaz, son procesos seguros y obtienes algún feedback desde la plataforma.
+</p>
+        <button onclick="Buenaspracticas()" class="boton"><img src="arrow_forward_24px.png"></button>
+           </div>
+         </div>
+
+
+         <div class="split right">
+           <div class="lista">
+             <ul>
+               <li><a href="#"> Facebook cuenta verificada </a></li>
+               <li><a href="#"> Instagram cuenta verificada de creador </a></li>
+               <li><a href="#"> Instagram cuenta verificada de empresa </a></li>
+               <li><a href="#"> Youtube cuenta verificada para persona </a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+
+         <button onclick="Malaspracticas()" class="btn"> <h2> Malas prácticas <img class="mas" src="add.png">
+         </h2> </button>
+
+         <div class="practicasData" id="Malas practicas">
+
+           <div class="split left">
+             <div class="centered">
+               <h2> Malas practicas </h2>
+               <a href="#"><h4> + Añadir nuevo ejemplo </h4></a>
+               <p> Se consideran malas prácticas aquellas que no hacen que el pr
+  oceso de verificación sea confirmado por el usuario que lo solicita. Se oculta el criterio al usuario.
+  </p>
+               <button onclick="Malaspracticas()" class="boton"><img src="arrow_forward_24px.png"></button>
+             </div>
+           </div>
+
+           <div class="split right">
+             <div class="lista">
+               <ul>
+                 <li><a href="#"> Twitter cuenta verificada para personas</a></li>
+                 <li><a href="#"> Tiktok cuenta verificada para personas </a></li>
+               </ul>
+             </div>
+           </div>
+
+       </div>
+
+</div>
+
+    <script>
+
+
+
+    function Buenaspracticas() {
+      var x = document.getElementById("Buenas practicas");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display ="none";
+      }
+    }
+
+    function Malaspracticas() {
+      var x = document.getElementById("Malas practicas");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display ="none";
+      }
+    }
+
+    </script>
+
+</body>
+
+</html>
